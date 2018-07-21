@@ -25,6 +25,29 @@ else()
     set(_OPT_CMAKE_ARGS "")
 endif()
 
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+if (WIN32)
+    #Visual Studio 2017
+    if (MSVC_VERSION GREATER_EQUAL "1900")
+            MESSAGE ("=> C++17 Compatible")
+            include(CheckCXXCompilerFlag)
+            CHECK_CXX_COMPILER_FLAG("/std:c++latest" _cpp_latest_flag_supported)
+            if (_cpp_latest_flag_supported)
+                    add_compile_options("/std:c++latest")
+            endif()
+    else()
+            MESSAGE ("=> C++14 Compatible")
+            set (CMAKE_CXX_STANDARD 14)
+            set (CMAKE_CXX_STANDARD_REQUIRED ON)
+    endif()
+else()
+
+endif()
+
+
 # Will download external CMakeable project from git repo, branch "master" and install it in $DEPS_ROOT
 # This also will create "googletest.git" target, which we'll use as dependency for our test project
 ExtProjectGit("https://github.com/google/googletest.git" "master" ${DEPS_ROOT} CMAKE_ARGS "${_OPT_CMAKE_ARGS}")
