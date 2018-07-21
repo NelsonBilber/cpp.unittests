@@ -1,0 +1,10 @@
+#+Title: C++ Unit Tests
+#+Author: Nelson Bilber Rodrigues
+
+The idea is to explore unit testing on C++ projects. 
+
+
+Project structure was forked from [[https://github.com/snikulov/google-test-examples][Short sample how-to use Google C++ Test Framework in cmakeable projects]]
+
+
+
