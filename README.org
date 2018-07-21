@@ -3,8 +3,15 @@
 
 The idea is to explore unit testing on C++ projects. 
 
+*** Project Structure
 
-Project structure was forked from [[https://github.com/snikulov/google-test-examples][Short sample how-to use Google C++ Test Framework in cmakeable projects]]
+Forked from [[https://github.com/snikulov/google-test-examples][Short sample how-to use Google C++ Test Framework in cmakeable projects]]
 
 
+**** How to use it
 
+1. mkdir build
+2. cd build
+4. cmake ..
+3. cmake --build .
+4. ctest -VV
