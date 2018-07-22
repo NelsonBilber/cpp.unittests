@@ -2,10 +2,6 @@ language: cpp
 
 matrix:
     include:
-        - os: linux
-          compiler: gcc
-        - os: linux
-          compiler: clang
         - os: osx
           compiler: gcc
         - os: osx
