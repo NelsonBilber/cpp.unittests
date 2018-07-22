@@ -24,7 +24,7 @@ On other project [[https://github.com/NelsonBilber/algorithms][Algorithms]] I'm 
 ** Continuous Integration
 
 #+Attr_HTML: title="travis-ci.org"
-[[https://travis-ci.org/NelsonBilber/cpp.unittests.svg?branch=master][https://travis-ci.org/NelsonBilber/cpp.unittests.svg?branch=master]]
+[[https://travis-ci.org/NelsonBilber/cpp.unittests][https://travis-ci.org/NelsonBilber/cpp.unittests.svg?branch=master]]
 
 
 *** Project Structure
