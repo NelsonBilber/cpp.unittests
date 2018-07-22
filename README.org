@@ -5,16 +5,20 @@ The idea is to explore unit testing on C++ projects.
 
 The use case for this unit test was taken from book [[https://www.clean-cpp.com/][Clean C++]] . I use google test library for Test-Driven Development (TDD)
 
-/"Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle: requirements are turned into very specific test cases, then the software is improved to pass the new tests, only. This is opposed to software development that allows software to be added that is not proven to meet requirements"/
+*** Test-driven development (TDD) 
 
-[[https://en.wikipedia.org/wiki/Test-driven_development][Wikipedia - Test-driven development]]
+" /Test-driven development (TDD) Is a software development process that relies on the repetition of a very short development cycle: requirements are turned into very specific test cases, then the software is improved to pass the new tests, only. This is opposed to software development that allows software to be added that is not proven to meet requirements/ "
 
+[[https://en.wikipedia.org/wiki/Test-driven_development][from wikipedia - Test-driven development]]
+
+
+*** Behavior-driven development (BDD)
 
 On other project [[https://github.com/NelsonBilber/algorithms][Algorithms]] I'm using [[https://github.com/catchorg/Catch2][Catch2]] for Behavior-Driven development (BDD) 
 
-/"Behavior-driven development combines the general techniques and principles of TDD with ideas from domain-driven design and object-oriented analysis and design to provide software development and management teams with shared tools and a shared process to collaborate on software development"/
+" /Behavior-driven development combines the general techniques and principles of TDD with ideas from domain-driven design and object-oriented analysis and design to provide software development and management teams with shared tools and a shared process to collaborate on software development/ "
 
-[[https://en.wikipedia.org/wiki/Behavior-driven_development][Wikipedia - Behavior-driven development]]
+[[https://en.wikipedia.org/wiki/Behavior-driven_development][from wikipedia - Behavior-driven development]]
 
 
 *** Project Structure
