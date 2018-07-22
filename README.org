@@ -21,6 +21,12 @@ On other project [[https://github.com/NelsonBilber/algorithms][Algorithms]] I'm 
 [[https://en.wikipedia.org/wiki/Behavior-driven_development][from wikipedia - Behavior-driven development]]
 
 
+** Continuous Integration
+
+#+Attr_HTML: title="travis-ci.org"
+[[https://travis-ci.org/NelsonBilber/cpp.unittests.svg?branch=master][https://travis-ci.org/NelsonBilber/cpp.unittests.svg?branch=master]]
+
+
 *** Project Structure
 
 Forked from [[https://github.com/snikulov/google-test-examples][Short sample how-to use Google C++ Test Framework in cmakeable projects]]
