@@ -4,14 +4,15 @@
 
 using namespace std;
 
+
 struct ArabicToRomanMapping
 {
     unsigned int arabicNumber;
-    std::string romanNumeral;
+    string romanNumeral;
 };
 
 
-const std::size_t numberOfMappings { 13 };
+const size_t numberOfMappings { 13 };
 using ArabicToRomanMappings = std::array<ArabicToRomanMapping, numberOfMappings>;
 
 const ArabicToRomanMappings arabicToRomanMappings = { {
@@ -30,9 +31,9 @@ const ArabicToRomanMappings arabicToRomanMappings = { {
     {    1, "I"  }
 } };
 
-std::string convertArabicNumberToRomanNumeral(unsigned int arabicNumber)
+string convertArabicNumberToRomanNumeral(unsigned int arabicNumber)
 {
-    std::string romanNumeral;
+    string romanNumeral;
     for (auto mapping : arabicToRomanMappings)
     {
         while (arabicNumber >= mapping.arabicNumber)
